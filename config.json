@@ -1,29 +1,21 @@
 {
     "max_open_trades": 1,
-    "stake_currency": "USDT",
+    "stake_currency": "USD",
     "stake_amount": 15,
     "timeframe": "15m",
     "dry_run": true,
     "dry_run_wallet": 1000,
     
     "exchange": {
-        "name": "binance",
+        "name": "kraken",
         "key": "",
         "secret": "",
         "ccxt_config": {
-            "sandbox": true,
-            "sandboxUrl": "https://testnet.binance.vision/api/",
-            "urls": {
-                "api": {
-                    "public": "https://testnet.binance.vision/api/",
-                    "private": "https://testnet.binance.vision/api/",
-                    "test": "https://testnet.binance.vision/api/"
-                }
-            }
+            "sandbox": true
         },
         "pair_whitelist": [
-            "BTC/USDT",
-            "ETH/USDT"
+            "BTC/USD",
+            "ETH/USD"
         ]
     },
     
