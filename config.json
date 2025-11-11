@@ -11,7 +11,15 @@
         "key": "",
         "secret": "",
         "ccxt_config": {
-            "sandbox": true
+            "sandbox": true,
+            "sandboxUrl": "https://testnet.binance.vision/api/",
+            "urls": {
+                "api": {
+                    "public": "https://testnet.binance.vision/api/",
+                    "private": "https://testnet.binance.vision/api/",
+                    "test": "https://testnet.binance.vision/api/"
+                }
+            }
         },
         "pair_whitelist": [
             "BTC/USDT",
