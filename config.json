@@ -7,10 +7,9 @@
     "dry_run_wallet": 1000,
     
     "exchange": {
-        "name": "okx",
+        "name": "gate",
         "key": "",
         "secret": "",
-        "password": "",
         "ccxt_config": {
             "sandbox": true
         },
